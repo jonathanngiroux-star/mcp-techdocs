@@ -1,0 +1,568 @@
+{
+  "version": "1.0.0",
+  "documents": {
+    "doc-7e9fd7192305": {
+      "doc_id": "doc-7e9fd7192305",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "endpoints",
+        "health",
+        "reference"
+      ],
+      "created_at": "2026-10-28T13:33:56.542490Z",
+      "updated_at": "2026-10-28T13:33:56.542513Z",
+      "version": "1.0.0"
+    },
+    "api-doc-4ee1e6e5f837": {
+      "doc_id": "api-doc-4ee1e6e5f837",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:33:56.550635Z",
+      "updated_at": "2026-10-28T13:33:56.550646Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "arch-doc-3e39771dbbf4": {
+      "doc_id": "arch-doc-9a6993b2d2df",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:33:56.554756Z",
+      "updated_at": "2026-10-28T13:33:56.554764Z",
+      "version": "1.0.0"
+    },
+    "doc-ee1466816951": {
+      "doc_id": "doc-ee1466816951",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "health",
+        "reference",
+        "endpoints"
+      ],
+      "created_at": "2026-10-28T13:41:08.263754Z",
+      "updated_at": "2026-10-28T13:41:08.263774Z",
+      "version": "1.0.0"
+    },
+    "api-doc-39eed16f34e3": {
+      "doc_id": "api-doc-39eed16f34e3",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:41:08.271557Z",
+      "updated_at": "2026-10-28T13:41:08.271568Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "arch-doc-954687a4881d": {
+      "doc_id": "arch-doc-43490380432a",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:41:08.276100Z",
+      "updated_at": "2026-10-28T13:41:08.276112Z",
+      "version": "1.0.0"
+    },
+    "doc-0015556870a0": {
+      "doc_id": "doc-0015556870a0",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "health",
+        "endpoints",
+        "reference"
+      ],
+      "created_at": "2026-10-28T13:44:14.272599Z",
+      "updated_at": "2026-10-28T13:44:14.272618Z",
+      "version": "1.0.0"
+    },
+    "api-doc-1222e038bc4b": {
+      "doc_id": "api-doc-1222e038bc4b",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:44:14.280699Z",
+      "updated_at": "2026-10-28T13:44:14.280710Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "arch-doc-599e453df609": {
+      "doc_id": "arch-doc-f3e4d42f1c9e",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:44:14.285291Z",
+      "updated_at": "2026-10-28T13:44:14.285302Z",
+      "version": "1.0.0"
+    },
+    "doc-af230d1aae9d": {
+      "doc_id": "doc-af230d1aae9d",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "reference",
+        "endpoints",
+        "health"
+      ],
+      "created_at": "2026-10-28T13:47:22.232270Z",
+      "updated_at": "2026-10-28T13:47:22.232286Z",
+      "version": "1.0.0"
+    },
+    "doc-123": {
+      "doc_id": "doc-123",
+      "title": "Test Document",
+      "content": "# Test Document\n\nThis is a test document created for testing purposes.",
+      "raw_content": "This is a test document.",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "test",
+        "document"
+      ],
+      "created_at": "2026-10-28T13:47:22.234792Z",
+      "updated_at": "2026-10-28T13:47:49.846182Z",
+      "version": "v2.0"
+    },
+    "api-doc-f413867b74ca": {
+      "doc_id": "api-doc-f413867b74ca",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:47:22.240396Z",
+      "updated_at": "2026-10-28T13:47:22.240403Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "arch-doc-8cb4684a6a4d": {
+      "doc_id": "arch-doc-ade664f424f8",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:47:22.244893Z",
+      "updated_at": "2026-10-28T13:47:22.244904Z",
+      "version": "1.0.0"
+    },
+    "doc-66d9a68beae7": {
+      "doc_id": "doc-66d9a68beae7",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "health",
+        "endpoints",
+        "reference"
+      ],
+      "created_at": "2026-10-28T13:47:35.074361Z",
+      "updated_at": "2026-10-28T13:47:35.074379Z",
+      "version": "1.0.0"
+    },
+    "api-doc-c07af9a1d095": {
+      "doc_id": "api-doc-c07af9a1d095",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:47:35.082500Z",
+      "updated_at": "2026-10-28T13:47:35.082511Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "arch-doc-7c10ba43671d": {
+      "doc_id": "arch-doc-c2c3e3de093b",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:47:35.087155Z",
+      "updated_at": "2026-10-28T13:47:35.087163Z",
+      "version": "1.0.0"
+    },
+    "arch-doc-445640a11c97": {
+      "doc_id": "arch-doc-bab2285a788b",
+      "title": "System Architecture",
+      "content": "graph TB\n    %% Components\n    api_gateway[api-gateway]\n    auth_service[auth-service]\n    data_service[data-service]\n    cache[cache]\n    %% Connections\n    api_gateway --> auth_service\n    api_gateway --> data_service\n    data_service --> cache",
+      "format": "mermaid",
+      "template": "architecture-diagram",
+      "category": "architecture",
+      "tags": [
+        "architecture",
+        "diagram",
+        "system-design"
+      ],
+      "components": [
+        "api-gateway",
+        "auth-service",
+        "data-service",
+        "cache"
+      ],
+      "connections": [
+        [
+          "api-gateway",
+          "auth-service"
+        ],
+        [
+          "api-gateway",
+          "data-service"
+        ],
+        [
+          "data-service",
+          "cache"
+        ]
+      ],
+      "format_type": "mermaid",
+      "direction": "TB",
+      "created_at": "2026-10-28T13:47:49.827888Z",
+      "updated_at": "2026-10-28T13:47:49.827905Z",
+      "version": "1.0.0"
+    },
+    "api-doc-05624298d935": {
+      "doc_id": "api-doc-05624298d935",
+      "title": "API Reference - https://api.example.com/openapi.json",
+      "content": "# API Reference\n\nGenerated from: `https://api.example.com/openapi.json`\n\n\n## Authentication\n\nAPI uses Bearer token authentication. Include `Authorization: Bearer <token>` header.\n\n\n## Endpoints\n\n\n### GET /api/v1/health\nHealth check\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/health\n```\n\n### GET /api/v1/users\nList users\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users\n```\n\n### POST /api/v1/users\nCreate user\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/users\n```\n\n### GET /api/v1/users/{id}\nGet user by ID\n\n**Example Request:**\n```bash\ncurl -X GET https://api.example.com/api/v1/users/{id}\n```\n\n### PUT /api/v1/users/{id}\nUpdate user\n\n**Example Request:**\n```bash\ncurl -X PUT https://api.example.com/api/v1/users/{id}\n```\n\n### DELETE /api/v1/users/{id}\nDelete user\n\n**Example Request:**\n```bash\ncurl -X DELETE https://api.example.com/api/v1/users/{id}\n```\n\n### POST /api/v1/auth/login\nLogin\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/login\n```\n\n### POST /api/v1/auth/refresh\nRefresh token\n\n**Example Request:**\n```bash\ncurl -X POST https://api.example.com/api/v1/auth/refresh\n```\n",
+      "format": "markdown",
+      "template": "api-reference",
+      "category": "api-reference",
+      "tags": [
+        "api",
+        "reference",
+        "openapi"
+      ],
+      "created_at": "2026-10-28T13:47:49.834262Z",
+      "updated_at": "2026-10-28T13:47:49.834269Z",
+      "version": "1.0.0",
+      "spec_url": "https://api.example.com/openapi.json"
+    },
+    "doc-13e7d60d87db": {
+      "doc_id": "doc-13e7d60d87db",
+      "title": "API Reference",
+      "content": "# API Reference\n\n## API Reference\n\n# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "raw_content": "# API Reference\n\n## Endpoints\n\n### GET /api/v1/health",
+      "format": "markdown",
+      "template": "api-reference",
+      "variables": {},
+      "category": "api-reference",
+      "tags": [
+        "health",
+        "reference",
+        "endpoints"
+      ],
+      "created_at": "2026-10-28T13:47:49.837883Z",
+      "updated_at": "2026-10-28T13:47:49.837890Z",
+      "version": "1.0.0"
+    }
+  },
+  "versions": {
+    "doc-7e9fd7192305": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:33:56.542518Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-3e39771dbbf4": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:33:56.554768Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-ee1466816951": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:41:08.263779Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-954687a4881d": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:41:08.276116Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-0015556870a0": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:44:14.272623Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-599e453df609": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:44:14.285306Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-af230d1aae9d": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:22.232291Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-123": [
+      {
+        "version": "v2.0",
+        "created_at": "2026-10-28T13:47:49.846171Z",
+        "changelog": "Added new endpoints"
+      },
+      {
+        "version": "v2.0",
+        "created_at": "2026-10-28T13:47:35.093540Z",
+        "changelog": "Added new endpoints"
+      },
+      {
+        "version": "v2.0",
+        "created_at": "2026-10-28T13:47:22.252962Z",
+        "changelog": "Added new endpoints"
+      },
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:22.234802Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-8cb4684a6a4d": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:22.244908Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-66d9a68beae7": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:35.074384Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-7c10ba43671d": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:35.087167Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "arch-doc-445640a11c97": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:49.827910Z",
+        "changelog": "Initial version"
+      }
+    ],
+    "doc-13e7d60d87db": [
+      {
+        "version": "1.0.0",
+        "created_at": "2026-10-28T13:47:49.837894Z",
+        "changelog": "Initial version"
+      }
+    ]
+  }
+}
